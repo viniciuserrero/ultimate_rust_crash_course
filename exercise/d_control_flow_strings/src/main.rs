@@ -21,9 +21,9 @@ fn main() {
         // - If arg is anything else, then call the count() function, passing "arg" to it.
         if arg == "sum"{
             sum();
-        }else if arg == "double"{
+        } else if arg == "double" {
             double();
-        }else{
+        } else {
             count(arg);
         }
 
